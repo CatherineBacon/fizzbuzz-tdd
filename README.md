@@ -1,0 +1,9 @@
+# FizzBuzz rules
+
+For a specified number:
+- if divisible by 3 and 5 return fizzbuzz
+- if divisible by 3 return fizz
+- if divisible by 5 return buzz
+- otherwise return the number
+
+This repository if for me to practice test driven development.
