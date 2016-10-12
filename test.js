@@ -7,6 +7,15 @@ it('should exist', function() {
     assert.equal(typeof fizzbuzz, 'function');
 });
 
+it('should check if input is a number', function() {
+    assert.throws(
+        function() {
+            fizzbuzz('test')
+        },
+        'That is not a number!'
+    );
+});
+
 it('should normally return the input', function() {
     assert.equal(fizzbuzz(1), 1);
     assert.equal(fizzbuzz(2), 2);
