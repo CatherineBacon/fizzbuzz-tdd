@@ -16,3 +16,8 @@ it('should return fizzbuzz if n is divisible by 3 and 5', function() {
     assert.equal(fizzbuzz(15), 'fizzbuzz');
     assert.equal(fizzbuzz(30), 'fizzbuzz');
 });
+
+it('should return fizz if n is divisible by 3', function() {
+    assert.equal(fizzbuzz(3), 'fizz');
+    assert.equal(fizzbuzz(6), 'fizz');
+});
